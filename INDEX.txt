@@ -1,0 +1,8 @@
+Executable: /EXE/EXE.jar
+- A part, també hi ha el projecte que hem programat.
+
+Fonts: /FONTS/Aarón/, /FONTS/Sergi/, /FONTS/Júlia/
+- Classes segons qui les ha implementat
+
+Documentació: /DOCS/Segona\ Entrega/
+- Hem incòs la documentació completa i els diagrames (ja a la documentació) a part per si es volen visualizar millor

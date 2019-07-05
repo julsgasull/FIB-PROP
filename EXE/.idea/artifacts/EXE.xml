@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="EXE">
+    <output-path>$PROJECT_DIR$/ProjecteIntelliJ/out/artifacts/EXE</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="main.domini.model.main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="EXE.jar">
+        <element id="module-output" name="EXE" />
+      </element>
+    </root>
+  </artifact>
+</component>

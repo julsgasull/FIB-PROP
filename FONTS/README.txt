@@ -1,0 +1,1 @@
+Només hi ha les classes implementades per a la segona entrega. No hi a ni drivers ni stubs.

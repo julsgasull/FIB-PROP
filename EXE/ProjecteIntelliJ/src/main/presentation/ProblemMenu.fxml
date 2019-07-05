@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseMoved="#startProblemMenu" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom right, #090909, #454545);;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.presentation.CtrlProblemMenu">
+    <children>
+        <Label layoutX="207.0" layoutY="43.0" text="problem menu." textFill="WHITE">
+            <font>
+                <Font name="Rubik Bold" size="25.0" />
+            </font></Label>
+        <Button fx:id="goBackButton" cancelButton="true" layoutX="13.0" layoutY="13.0" mnemonicParsing="false" onAction="#goBackClicked" prefHeight="29.0" prefWidth="77.0" style="-fx-background-color: transparent;" text="&lt; go back" textAlignment="CENTER" textFill="#808080">
+            <font>
+                <Font name="Karla Bold" size="13.0" />
+            </font>
+        </Button>
+        <Button fx:id="exitButton" cancelButton="true" layoutX="541.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitClicked" prefHeight="29.0" prefWidth="45.0" style="-fx-background-color: transparent; -fx-border-color: grey; -fx-border-radius: 5;" text="exit" textAlignment="CENTER" textFill="#808080">
+            <font>
+                <Font name="Karla Bold" size="13.0" />
+            </font>
+        </Button>
+      <Label layoutX="50.0" layoutY="99.0" text="problemName." textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="129.0" text="numberOfPlays." textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="159.0" text="fenNotation." textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="200.0" prefHeight="17.0" prefWidth="114.0" text="problemRanking." textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="170.0" layoutY="200.0" prefHeight="17.0" prefWidth="328.0" text="(position | playerName | numPlays | matchTime)" textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="10.0" />
+         </font>
+      </Label>
+    <Button fx:id="deleteProblemButton" alignment="CENTER" cancelButton="true" contentDisplay="CENTER" layoutY="337.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#deleteProblemClicked" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="delete problem" textAlignment="CENTER" textFill="#ff6666">
+        <font>
+            <Font name="Karla Bold" size="18.0" />
+        </font></Button>
+        <Button fx:id="playProblemButton" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="398.0" layoutY="337.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playProblemClicked" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="play problem" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font name="Karla Bold" size="18.0" />
+        </font></Button>
+      <ListView fx:id="problemList" layoutX="50.0" layoutY="223.0" prefHeight="108.0" prefWidth="499.0" style="-fx-background-color: #454545;" />
+      <Label fx:id="problemName" layoutX="160.0" layoutY="99.0" prefHeight="17.0" prefWidth="385.0" style="-fx-background-color: #454545;" textFill="WHITE">
+         <font>
+            <Font name="Karla" size="13.0" />
+         </font></Label>
+      <Label fx:id="nPlays" layoutX="159.0" layoutY="129.0" prefHeight="17.0" prefWidth="385.0" style="-fx-background-color: #454545;" textFill="WHITE">
+         <font>
+            <Font name="Karla" size="13.0" />
+         </font></Label>
+      <Label fx:id="fenNotation" layoutX="159.0" layoutY="159.0" prefHeight="17.0" prefWidth="385.0" style="-fx-background-color: #454545;" textFill="WHITE">
+         <font>
+            <Font name="Karla" size="13.0" />
+         </font></Label>
+      <Button fx:id="modifyProblemButton" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="337.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#modifyProblemClicked" prefHeight="70.0" prefWidth="200.0" style="-fx-background-color: transparent;" text="modify problem" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

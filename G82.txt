@@ -1,0 +1,18 @@
+Grup Laboratori: 41 
+Grup Gitlab: 8.2
+
+Lliurament: Segon lliurament
+
+Versió: 2.0
+
+Data d'entrega: 30/05/2019
+
+Integrants del grup:
+
+GARCIA SANCHEZ, AARON
+GASULL I NAVARRO, JULIA
+SENDROS PLANA, SERGI
+
+aaron.garcia.sanchez@est.fib.upc.edu
+julia.gasull.i@est.fib.upc.edu
+sergi.sendros@est.fib.upc.edu

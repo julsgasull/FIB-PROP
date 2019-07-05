@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to bottom right, #090909, #454545);;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.presentation.CtrlWelcomeMenu">
+   <children>
+      <SVGPath content="M223.333,247h-5.926c2.607-3.811,10.798-18.024-0.727-32.248c-13.334-16.46-39.863-65.748-27.324-98.752h0.977 c4.418,0,7.667-3.582,7.667-8v-1c0-4.418-3.249-8-7.667-8h-1.225c10.917-10.466,17.725-25.184,17.725-41.5 c0-31.756-25.744-57.5-57.5-57.5s-57.5,25.744-57.5,57.5c0,16.316,6.808,31.034,17.725,41.5h-2.225c-4.418,0-8.333,3.582-8.333,8v1 c0,4.418,3.915,8,8.333,8h1.979c12.539,33.004-13.99,82.292-27.324,98.752c-11.524,14.224-3.334,28.437-0.727,32.248h-6.928 c-4.418,0-8.333,3.582-8.333,8v18c0,4.418,3.915,8,8.333,8H75v16h148v-16c5,0,8-3.582,8-8v-18C231,250.582,227.751,247,223.333,247 z" layoutX="39.0" layoutY="36.0" scaleX="0.5" scaleY="0.5">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#ffecc0" />
+                  <Stop color="#ffecc0" offset="0.007434944237918215" />
+                  <Stop color="#d45f69" offset="0.5183946488294312" />
+                  <Stop color="#803ee9" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </SVGPath>
+      <Label layoutX="290.0" layoutY="140.0" text="CHEESSY" textFill="WHITE">
+         <font>
+            <Font name="Rubik Bold" size="25.0" />
+         </font></Label>
+      <Label layoutX="250.0" layoutY="200.0" text="love chess again" textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="signUpButton" alignment="CENTER" contentDisplay="CENTER" layoutY="337.0" mnemonicParsing="false" onAction="#SignUpClicked" prefHeight="70.0" prefWidth="300.0" style="-fx-background-color: transparent;" text="sign up" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="logInButton" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="299.0" layoutY="337.0" mnemonicParsing="false" onAction="#LogInClicked" prefHeight="70.0" prefWidth="300.0" style="-fx-background-color: transparent;" text="log in" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Karla Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" cancelButton="true" layoutX="541.0" layoutY="14.0" mnemonicParsing="false" onAction="#exitClicked" prefHeight="29.0" prefWidth="45.0" style="-fx-background-color: transparent; -fx-border-color: grey; -fx-border-radius: 5;" text="exit" textAlignment="CENTER" textFill="#808080">
+         <font>
+            <Font name="Karla Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

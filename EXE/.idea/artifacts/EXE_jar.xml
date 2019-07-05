@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EXE:jar">
+    <output-path>$PROJECT_DIR$/ProjecteIntelliJ/out/artifacts/EXE_jar</output-path>
+    <root id="archive" name="EXE.jar">
+      <element id="module-output" name="EXE" />
+    </root>
+  </artifact>
+</component>
